@@ -29,6 +29,8 @@
     justify-content: center;
     align-items: center;
     gap: 50px;
+    /*     position:  fixed;
+ */
 }
 
 .navbar a {
@@ -74,6 +76,7 @@ main {
 #slogan1 {
     font-size: 1em;
     color: #FA6125;
+
 }
 
 h2 {
@@ -100,13 +103,13 @@ h2 {
     justify-content: center;
     align-items: center;
     margin: 1%;
-/*     border: 1px solid blue;
+    /*     border: 1px solid blue;
  */
 }
 
 .slogans {
     padding: 2%;
-    width:40%;
+    width: 40%;
     height: 50vh;
     background-color: var(--corFundoA);
     box-shadow: 10px 10px 15px black;
@@ -120,7 +123,7 @@ h2 {
 
 .slogan-comp {
     padding: 5%;
-    width:80%;
+    width: 80%;
     height: 90px;
     color: black;
     font-size: 2em;
@@ -147,3 +150,82 @@ h2 {
 }
 
 /*iniciando o sobre*/
+
+.final {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.presentation {
+    background-image: url("./images/edition/union.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+    height: 100%;
+    margin: 3% 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 7px solid var(--corFundoA);
+    border-radius: 15px 100px 15px 100px;
+    font-size: 1.1em;
+    font-weight: 4500;
+}
+
+.sobre {
+    width: 80%;
+    margin: 5% 0;
+    font-size: 1.2em;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.msg {
+    background-color: var(--corFundoA);
+    width: 200px;
+    height: 40px;
+    margin: 1%;
+    border: 10px solid var(--corFonte-);
+    border-radius: 15px;
+}
+
+.other-services {
+    background-image: url("./images/edition/union.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+    margin: 3% 1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    border: 7px solid var(--corFundoA);
+    border-radius: 100px 15px 100px 15px;
+    font-weight: 400;
+    text-align: center;
+
+}
+
+.other-services h2 {
+    font-weight: 600;
+
+}
+
+.services {
+    width: 80%;
+    margin: 5% 0;
+    font-size: 1.2em;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    gap: 20px;
+}
+
+/*sobre finalizado/ outros serviços*/
