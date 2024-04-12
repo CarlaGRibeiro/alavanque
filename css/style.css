@@ -13,7 +13,7 @@
     margin: 0;
     box-sizing: border-box;
     outline: none;
-    transition: .2s linear;    
+    transition: .2s linear;
     border: 0;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
@@ -510,7 +510,7 @@ footer {
         margin-top: 10px;
     }
 
-    
+
 
     .slogans {
         padding: 0.5%;
@@ -521,9 +521,11 @@ footer {
         display: flex;
         gap: 10px;
     }
-.slogans >p {
+
+    .slogans>p {
         font-size: 80%;
     }
+
     .slogan-comp {
         padding: 2%;
         width: 80%;
@@ -747,5 +749,13 @@ footer {
 
     .other-services {
         font-size: 80%;
+    }
+}
+
+@media (min-width:1070px) {
+
+
+    .slogan-comp {
+        margin: 30px auto;
     }
 }
