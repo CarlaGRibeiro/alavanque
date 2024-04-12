@@ -17,6 +17,19 @@
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+body {
+    overflow-x: hidden;
+    max-width: 100%;
+}
+
+header {
+    width: 100%;
+}
+
+nav {
+    width: 100%;
+}
+
 .navbar {
     width: 100%;
     height: 8vh;
@@ -45,6 +58,7 @@
 }
 
 main {
+    width: 100%;
     display: flex;
     flex-direction: column;
 
@@ -72,6 +86,14 @@ main {
 
 }
 
+.destaque1>h2 {
+    font-size: 1.6em;
+}
+
+.group-slogan {
+    width: 100%;
+}
+
 #slogan1 {
     font-size: 1em;
     color: #FA6125;
@@ -95,8 +117,15 @@ h2 {
     width: 50%;
 }
 
+.reason-img>img {
+
+    width: 90%;
+
+}
+
 .group-slogan {
-    margin: 1%;
+    width: 98%;
+    margin: 1% auto;
     margin-top: 10px;
     display: flex;
     flex-direction: row;
@@ -158,7 +187,7 @@ h2 {
     background-size: 25%;
     width: 98%;
     height: 100%;
-    margin: 1%;
+    margin: 1% auto;
     margin-top: 10px;
     border: 3px solid var(--corFundoA);
     box-shadow: 1ps 1px 5px black;
@@ -228,7 +257,6 @@ h2 {
 /*iniciando o sobre*/
 
 .slogan-comp3 {
-
     text-align: center;
     color: var(--corFonte);
     font-size: 2em;
@@ -236,6 +264,8 @@ h2 {
 
 
 .final {
+    width: 98%;
+    margin: 1% auto;
     display: flex;
     flex-direction: row;
 }
@@ -251,7 +281,7 @@ h2 {
     border: 7px solid var(--corFundoA);
     border-radius: 15px 100px 15px 100px;
     font-size: 1.1em;
-    font-weight: 4500;
+    font-weight: 450;
 }
 
 .sobre {
@@ -330,39 +360,22 @@ h2 {
 /*FOOTER*/
 
 footer {
-    width: 97%;
-    margin:auto;
-    margin-bottom:1%;
-    border: 5px solid var(--corDestaque2);
+    width: 100%;
+    margin: auto;
+    margin-bottom: 1%;
+    border-top: 5px solid var(--corDestaque2);
     font-size: 0.9em;
     text-align: center;
     padding: 1%;
+    box-shadow: 0px 2px 10px black;
+
 
 
 }
-
-.container {
-    display: flex;
-    flex-direction: column;
-}
-
-.container-marca {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 1%;
-    padding: 0.5%;
-    border-bottom: 1px solid var(--corFundoA);
-}
-
-/* .container-marca>h3 {
-    font-size: 2em;
-    color: var(--corDestaque2);
-} */
 
 .sections {
-
+    width: 98%;
+    margin: auto;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -420,7 +433,6 @@ footer {
 
 /*terceira sessão*/
 
-.assignment {}
 
 .assignment>p>a {
     text-decoration: none;
@@ -438,3 +450,301 @@ footer {
 }
 
 
+
+/*mediaQuery*/
+
+
+@media (max-width:640px) {
+
+    body {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    header,
+    main,
+    footer {
+        width: 100%;
+        margin: auto;
+    }
+
+    .navbar {
+        width: 99%;
+        height: 8vh;
+        font-size: 90%;
+    }
+
+    .reason {
+        width: 99%;
+        height: 30vh;
+        font-size: 50%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .destaque1 {
+        width: 60%;
+        height: 20vh;
+        padding: 1%;
+        font-size: large;
+    }
+
+    #slogan2 {
+        width: 100%;
+        font-size: 1em;
+        margin: auto;
+        word-wrap: break-word;
+
+    }
+
+    .reason-img>img {
+        width: 90%;
+    }
+
+
+    .group-slogan {
+        width: 90%;
+        height: 30vh;
+        margin: auto;
+        margin-top: 10px;
+    }
+
+    
+
+    .slogans {
+        padding: 0.5%;
+        width: 40%;
+        height: 25vh;
+        margin: auto;
+        font-size: 90%;
+        display: flex;
+        gap: 10px;
+    }
+.slogans >p {
+        font-size: 80%;
+    }
+    .slogan-comp {
+        padding: 2%;
+        width: 80%;
+        height: 7vh;
+        color: black;
+        font-size: 2em;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .slogan-resp {
+        width: 50%;
+        height: 100%;
+        margin: auto;
+
+    }
+
+    .slogan-resp>p {
+
+        margin: auto;
+        width: 90%;
+        height: 80%;
+        font-size: large;
+    }
+
+    .info {
+        width: 90%;
+        margin: auto;
+        margin-top: 5px;
+        background-image: none;
+    }
+
+    .types {
+        width: 95%;
+        margin: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .type {
+        width: 45%;
+    }
+
+    .type>h3 {
+        color: var(--corFonte);
+        padding: 2%;
+        margin: 2%;
+        border: 2px solid var(--corFonte);
+    }
+
+    .type>p {
+        font-size: small;
+    }
+
+
+    .slogan-comp3 {
+        width: 90%;
+        height: 50%;
+        margin: 1% auto;
+        padding: 2% 0;
+    }
+
+    .slogan-comp3>p {
+        margin: 2px auto;
+        font-size: xx-large;
+    }
+
+    .final {
+        width: 90%;
+        margin: 15px auto;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+
+    }
+
+    .presentation {
+
+        width: 99%;
+        margin: 1% auto;
+        border: none;
+        font-size: small;
+    }
+
+    .sobre {
+        width: 90%;
+        height: 80%;
+        margin: auto;
+        padding: 2%;
+
+    }
+
+    .sobre>p {
+        font-size: 15px;
+        text-align: justify;
+    }
+
+    .sobre>a>button {
+        margin: 10px auto;
+    }
+
+    .other-services {
+        width: 90%;
+        background: none;
+        margin: auto;
+        margin-bottom: 50px;
+        padding: 2%;
+        font-size: 1em;
+        word-wrap: break-word;
+    }
+
+    .classsub-title>h2 {
+        width: 100%;
+        margin: 1% 15%;
+        word-wrap: break-word;
+        font-size: 1.2em;
+    }
+
+
+
+    footer {
+        width: 100%;
+        margin: auto;
+    }
+
+    .sections {
+        width: 98%;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .adress-contact {
+        width: 99%;
+        margin: 0 auto;
+    }
+}
+
+
+
+
+
+
+@media (max-width:1069px) {
+    body {
+        width: 100%;
+        margin: auto;
+    }
+
+    header,
+    main,
+    footer {
+        width: 100%;
+    }
+
+    .reason>.destaque1>h2 {
+        font-size: 90%;
+        word-break: keep-all;
+        letter-spacing: 1%;
+    }
+
+    .reason-img>img {
+        width: 90%;
+        height: 90%;
+    }
+
+    .slogans {
+        justify-content: center;
+    }
+
+    .slogan-comp {
+        width: 90%;
+        height: 50%;
+        font-size: 98%;
+        font-weight: bold;
+    }
+
+    .slogan-rps {
+        width: 50%;
+        height: 50px;
+    }
+
+    .slogan-response {
+        height: 50px;
+        font-size: xx-large;
+    }
+
+    .info {
+        background-image: none;
+
+    }
+
+    .types {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 auto;
+        gap: 7px;
+
+    }
+
+    .type {
+        width: 45%;
+    }
+
+
+    .final {
+        flex-wrap: wrap;
+        gap: 5px;
+    }
+
+    .presentation,
+    .other-services {
+        width: 95%;
+        background-position: bottom right;
+        margin: 0 auto;
+    }
+
+    .other-services {
+        font-size: 80%;
+    }
+}
