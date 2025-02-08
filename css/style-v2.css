@@ -468,6 +468,13 @@ footer {
         justify-content: center;
         margin: 1%;
     }
+
+   section.other-services {
+        
+        margin: 3% 2%;
+        
+    
+    }
 }
 
 @media (max-width:640px) {
