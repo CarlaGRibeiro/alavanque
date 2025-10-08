@@ -29,6 +29,7 @@ header {
 
 nav {
     width: 100%;
+    display: flex;
 }
 
 .navbar {
@@ -56,6 +57,14 @@ nav {
     align-items: center;
     justify-content: center;
     font-weight: bold;
+}
+
+div#conect-now {
+    width: 60px;
+    background-color: transparent;
+    position: fixed;
+    top: 50px;
+    right: 0;
 }
 
 main {
@@ -127,7 +136,9 @@ h2 {
 .group-slogan {
     width: 98%;
     margin: 1% auto;
-    margin-top: 10px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    height: auto;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -141,9 +152,9 @@ h2 {
 .slogans {
     padding: 2%;
     width: 40%;
-    height: 30vh;
+    height: auto;
     background-color: var(--corFundoA);
-    box-shadow: 10px 10px 15px black;
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.432);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -155,7 +166,7 @@ h2 {
 .slogan-comp {
     padding: 5%;
     width: 80%;
-    height: 90px;
+    height: auto;
     color: black;
     font-size: 2em;
     text-align: center;
@@ -178,7 +189,7 @@ h2 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin:  auto 0px;
+    margin: auto 0px;
 }
 
 /*iniciando o informativo*/
@@ -189,8 +200,8 @@ h2 {
     background-size: 25%;
     width: 98%;
     height: 100%;
-    margin: 1% auto;
-    margin-top: 10px;
+    margin: 3% 1%;
+    padding: 1%;
     border: 3px solid var(--corFundoA);
     box-shadow: 1ps 1px 5px black;
     display: flex;
@@ -209,13 +220,10 @@ h2 {
     display: flex;
     flex-direction: column;
     align-items: center;
-
-
 }
 
 .opening h3 {
     font-size: 2em;
-
 }
 
 .opening p {
@@ -226,34 +234,35 @@ h2 {
 }
 
 .types {
-    width: 80%;
-    margin: 1%;
-    padding: 10px;
+    width: 90%;
+    padding: 1px;
     display: flex;
-    flex-direction: row;
-    justify-content: left;
-    gap: 2%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-.card {
-    width: 25%;
-    padding: 1%;
+.types>.card {
+    width: 95%;
+    margin: 1%;
+    padding: 10px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     border: 5px solid var(--corDestaque2);
-    box-shadow: 5px 5px 10px black;
+    box-shadow: 5px 5px 6px rgba(0, 0, 0, 0.486);
     text-align: center;
     font-weight: 400;
     word-wrap: break-word;
     line-height: 1.5em;
 }
 
+
 .card h3 {
     color: var(--corFonte);
-    padding: 2%;
+    padding: 1%;
     margin: 2%;
-    border: 2px solid var(--corFonte);
+    border: 1px solid var(--corFonte)
 }
 
 /*iniciando o sobre*/
@@ -406,7 +415,7 @@ footer {
 }
 
 .whats-contact>a>img {
-    width: 40%;
+    width: 50%;
     height: 30%;
 }
 
@@ -469,11 +478,11 @@ footer {
         margin: 1%;
     }
 
-   section.other-services {
-        
+    section.other-services {
+
         margin: 3% 2%;
-        
-    
+
+
     }
 }
 
@@ -499,7 +508,7 @@ footer {
 
     .reason {
         width: 99%;
-        height: 30vh;
+        height:auto;
         font-size: 50%;
         justify-content: center;
         align-items: center;
@@ -507,8 +516,8 @@ footer {
 
     .destaque1 {
         width: 60%;
-        height: 20vh;
-        padding: 1%;
+        height: auto;
+        padding: 2%;
         font-size: large;
     }
 
@@ -527,9 +536,8 @@ footer {
 
     .group-slogan {
         width: 90%;
-        height: 30vh;
-        margin: auto ;
-        margin-top: 10px;
+        height: 20vh;
+
     }
 
 
@@ -537,7 +545,7 @@ footer {
     .slogans {
         padding: 0.5%;
         width: 40%;
-        height: 25vh;
+        height: 15vh;
         margin: auto;
         font-size: 90%;
         display: flex;
@@ -546,13 +554,13 @@ footer {
     }
 
     .slogans>p {
-        font-size: 80%;
+        font-size: 100%;
     }
 
     .slogan-comp {
-        padding: 2%;
+        padding: 1%;
         width: 80%;
-        height: 7vh;
+        height: auto;
         color: black;
         font-size: 2em;
         text-align: center;
@@ -562,7 +570,7 @@ footer {
 
     .slogan-resp {
         width: 50%;
-        height: 100%;
+        height: auto;
         margin: auto;
 
     }
@@ -775,9 +783,10 @@ footer {
 }
 
 @media (min-width:1070px) {
-    .slogans{
-        height:auto;
+    .slogans {
+        height: auto;
     }
+
     .slogan-comp {
         margin: 30px auto;
     }
