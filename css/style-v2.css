@@ -535,7 +535,6 @@ footer {
     .group-slogan {
         width: 90%;
         height: 20vh;
-        border: 1px solid blue;
 
     }
 
@@ -549,7 +548,6 @@ footer {
         flex-direction: column;
         gap: 5px;
         box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.548);
-border: 1px solid rgb(0, 255, 98);
 padding:1px;
 
     }
@@ -561,17 +559,13 @@ padding:1px;
         color: black;
         font-size: small;
         text-align: center;
-        border: 1px solid rgb(255, 174, 0);
 padding:1px;
-
-
     }
 
     .slogan-resp {
         width: 50%;
         height: auto;
         margin: auto;
-
     }
 
     .slogan-resp>p {
@@ -697,6 +691,15 @@ padding:1px;
     .adress-contact {
         width: 99%;
         margin: 0 auto;
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        gap:5%;
+    }
+
+    .whats-contact{
+        display:flex;
+        flex-direction:row-reverse;
     }
 }
 
