@@ -534,29 +534,37 @@ footer {
 
     .group-slogan {
         width: 90%;
-        height: 20vh;
+        height: 40vh;
+        border: 1px solid blue;
+
     }
 
     .slogans {
         padding: 0.5%;
         width: 40%;
-        height: 15vh;
+        height: 95%;
         margin: auto;
-        font-size: 90%;
+        font-size: 80%;
         display: flex;
         flex-direction: column;
         gap: 5px;
         box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.548);
+border: 1px solid rgb(0, 255, 98);
+padding:1px;
+
     }
 
     .slogan-comp {
         padding: 1%;
         width: 90%;
-        height: auto;
+        height:35%;
         color: black;
-        font-size: 1.5em;
+        font-size: small;
         text-align: center;
-        
+        border: 1px solid rgb(255, 174, 0);
+padding:1px;
+
+
     }
 
     .slogan-resp {
