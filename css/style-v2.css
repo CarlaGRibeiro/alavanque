@@ -214,7 +214,7 @@ h2 {
 .opening {
     width: 100%;
     background-color: var(--corFundoA);
-    box-shadow: 0px 25px 50px rgba(0, 0, 0, 0.514);
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.514);
     padding: 0.9%;
     text-align: center;
     display: flex;
@@ -481,8 +481,6 @@ footer {
     section.other-services {
 
         margin: 3% 2%;
-
-
     }
 }
 
@@ -508,7 +506,7 @@ footer {
 
     .reason {
         width: 99%;
-        height:auto;
+        height: auto;
         font-size: 50%;
         justify-content: center;
         align-items: center;
@@ -537,10 +535,7 @@ footer {
     .group-slogan {
         width: 90%;
         height: 20vh;
-
     }
-
-
 
     .slogans {
         padding: 0.5%;
@@ -549,23 +544,19 @@ footer {
         margin: auto;
         font-size: 90%;
         display: flex;
-        gap: 10px;
-        box-shadow: 2px 2px 7px black;
-    }
-
-    .slogans>p {
-        font-size: 100%;
+        flex-direction: column;
+        gap: 5px;
+        box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.548);
     }
 
     .slogan-comp {
         padding: 1%;
-        width: 80%;
+        width: 90%;
         height: auto;
         color: black;
-        font-size: 2em;
+        font-size: 1.5em;
         text-align: center;
-        display: flex;
-        flex-direction: column;
+        
     }
 
     .slogan-resp {
