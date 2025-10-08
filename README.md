@@ -1,3 +1,3 @@
 # Alavanque
  Minha vitrine de divulgação para desenvolvimento de websites.
-Acesse em: https://carlagribeiro.github.io/Alavanque
+Acesse em: **https://carlagribeiro.github.io/lavanque**
